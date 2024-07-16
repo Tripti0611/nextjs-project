@@ -4,10 +4,10 @@ import Image from 'next/image';
 const Clients = () => {
   return (
     <div className="text-center my-8">
-      <h1 className="text-3xl font-bold clients">Our Clients</h1>
+      <h1 className="text-3xl font-bold mt-20 mb-0 text-gray">Our Clients</h1>
       <p className="text-gray-700">We have been working with some Fortune 500+ clients</p>
 
-      <div className="grid grid-cols-7 gap-4 mt-8 clients1">
+      <div className="grid grid-cols-7 gap-4 mt-8 justify-items-center">
         
         <div className=" p-4">
         <Image src="/src/client/Logo7.png" alt="Logo" width={40} height={40} />

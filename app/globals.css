@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 /* .hidden{
   display: none;
 }
@@ -20,99 +19,16 @@
    padding: 0px 8px;
   }
 }
-.tripti{
-  margin-left: 60px;
-}
-.tripti1{
-  margin-right: 60px;
-}
 
-.clients{
-  margin-top: 80px;
-  margin-bottom: 0px;
-  color: #4D4D4D;
-}
-.clients1{
-  justify-items: center;
-}
-
-.community{
-  margin-top:40px;
-  color: #4D4D4D;
-  Weight: 600;
- 
-  Size: 25.06px;
+@media (max-width:676px){
+  .mark4{
+    display: none;
+  }
 
 }
-.community1{
-  justify-items: center;
-  margin-bottom: 0px;
-}
-.community2{
-  font-size:25px;
-  color: #4D4D4D;
-  margin-top:-25px;
-}
-.community3{
-  font-size:14px;
-  color: #4D4D4D;
-}
-.pixel{
-  text-align: justify;
-}
-.pixel1{
-  justify-items: center;
-}
-.pixel2{
-  margin-top: 50px;
-  font-size:30px;
-  color: #4D4D4D;
-}
-.pixel3{
-  text-align: justify;
-  font-size: 14px;
-}
-.pixel4{
-margin-right:82%;
-}
-.help{
-  color:  #4CAF4F;
-
-}
-.help2{
-  background-color: #F5F7FA;
-}
-.meet{
-  color: #4CAF4F;
-}
-.meet2{
-  margin-top:4px;
-}
-.meet3{
-  text-align: justify;
-  font-size: 18px;
-}
-.help3{
-  text-align: justify;
-  margin-left: -70px;
-  font-size:22px;
-  
-  color: #4D4D4D;
-}
-.help4{
-  text-align: justify;
-  margin-left: -70px;
-  font-size:14px;
-}
-
-.mark{
-  border: none;
-  background-color: #F5F7FA;
-  margin-top: -80px;
-  width:230px;
-  margin-left: 110px;
-  padding: 5px 0px;
-  border-radius: 8px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+@media (min-width:675px){
+  .mark5{
+    display: none;
+  }
 
 }
